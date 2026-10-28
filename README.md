@@ -40,8 +40,7 @@ extractor = TranscriptExtractor(os.environ["GOOGLE_API_KEY"])
 result = extractor.extract_transcript("/path/to/authorized-transcript.pdf")
 ```
 
-This operation sends transcript content to the model service. Confirm authorization to process and transmit the data before running it. Model names follow the historical experiment configuration; check their availability before use. Outputs are intended for research and do not constitute official admission decisions. The credit conversion factor in the code is an experimental assumption.
-
+This operation sends transcript content to the model service. Confirm authorization to process and transmit the data before running it. Model names follow the historical experiment configuration; check their availability before use. Outputs are intended for research and do not constitute official admission decisions. 
 
 ## Running Examples and Experiments
 
@@ -57,4 +56,4 @@ Examples and experiments require your own authorized data and environment variab
 
 Run check scripts from the project root using `python -m tests.<module_name>`. These are the original manual check scripts, not a verified automated test suite.
 
-The cleanup removed legacy experiment entry points, the old GPT-4o baseline, and one-off result repair and rerun tools. API integration remains available, with credentials supplied through environment variables. No real API keys are included.
+
