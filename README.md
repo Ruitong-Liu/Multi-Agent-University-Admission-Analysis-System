@@ -42,11 +42,6 @@ result = extractor.extract_transcript("/path/to/authorized-transcript.pdf")
 
 This operation sends transcript content to the model service. Confirm authorization to process and transmit the data before running it. Model names follow the historical experiment configuration; check their availability before use. Outputs are intended for research and do not constitute official admission decisions. The credit conversion factor in the code is an experimental assumption.
 
-## Publication Status and Licensing
-
-This is a prepared copy for review and has not been published as part of this cleanup. Code ownership, university or collaborator publication requirements, and an appropriate open-source license still need to be confirmed by the author. No open-source license has been added on the author's behalf. Third-party dependencies remain subject to their respective licenses; their source code is not bundled here.
-
-Real data and thesis materials are excluded. Do not add personal transcripts, credentials, data without redistribution permission, or thesis attachments to a public repository. The review records are stored separately in `整理审查报告.md` and `文件处置清单.csv`.
 
 ## Running Examples and Experiments
 
