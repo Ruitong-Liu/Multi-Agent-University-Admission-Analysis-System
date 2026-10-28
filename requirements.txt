@@ -1,0 +1,8 @@
+openai>=1.0.0
+pdf2image>=1.16.0
+Pillow>=10.0.0
+selenium>=4.15.0
+webdriver-manager>=4.0.0
+google-generativeai>=0.3.0
+
+pdfplumber>=0.10.0
